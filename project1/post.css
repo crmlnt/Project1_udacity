@@ -1,0 +1,65 @@
+@import 'flex-navbar.css';
+@import 'style.css';
+
+
+.wrapper-post {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 15px;
+    row-gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 1fr;
+    min-height: calc(100vh - 100px -50px);
+   
+}
+
+.navbar-container {
+    grid-row: 1;
+}
+
+.blog-post {
+    grid-row: 2;
+    grid-column: span 2;
+    /* grid-column: span 2; */
+    padding: 15px;
+    margin-left: 0 auto;
+    background-color;
+}
+
+#header-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.social-icon img {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+#profile {
+    width: 40px;
+    height: 40pz;
+    margin: 0 auto 0 0;
+}
+
+
+
+
+

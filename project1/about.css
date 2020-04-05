@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
+
+.about {
+    background-color: rgb(233, 238, 194);
+    border-radius: 10px;
+    height: 80%;
+    padding: 15px;
+    box-shadow: 5px 5px 5px #c9c8c5;
+    
+}
+
+#card-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#card-text {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+#profile  {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    display: block;
+}                       
