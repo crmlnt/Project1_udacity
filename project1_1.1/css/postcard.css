@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
+
+.article {
+    background-color:#ebe9e6;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #c9c8c5;
+
+}
+
+#blog-title{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    
+}
+
+#read-more {
+    color: royalblue;
+    text-decoration: royalblue;
+}
+
