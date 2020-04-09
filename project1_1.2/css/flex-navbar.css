@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
+
+
+
+
+.navbar-container {
+    height: 120px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background-color: #292727;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.logo2 {
+    padding-right:20px;
+    color: rgb(212, 207, 207);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#link2 {
+   padding-right: 15px;
+   font-size: 16px;
+}
+
+#link2 a {
+    padding-right: 15px;
+}
+
+
+
+@media (min-width:850px) {
+    .navbar-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo2 {
+        padding-right:20px;
+        color: rgb(212, 207, 207);
+        padding-left: 25px;
+    }
+    
+    #link2 {
+       padding-right: 15px;
+    }
+    
+    #link2 a {
+        padding-right: 15px;
+    }
+
+}
+
